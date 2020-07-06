@@ -2,7 +2,7 @@ var config = {
 	database: {
 		host:	  'localhost', 	// database host
 		user: 	  'root', 		// your database username
-		password: 'root', 		// your database password
+		password: 'Test1086#', 		// your database password
 		port: 	  3306, 		// default MySQL port
 		db: 	  'test' 		// your database name
 	},
