@@ -1,8 +1,4 @@
-version: 0.5
-
-phases:
-  build:
-    commands:
-      - zip -r9 . code.zip
+version: 0.2
 artifacts:
-    files: code.zip
+  files:
+    - '**/*'
