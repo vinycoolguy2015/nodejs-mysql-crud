@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /code/*
+    destination: ~/nodejs-mysql-crud/
+hooks:
+  BeforeInstall:
+    - location: scripts/remove_app.sh
+      timeout: 300
+  ApplicationStart:
+    - location: scripts/start_app.sh
+      timeout: 300
